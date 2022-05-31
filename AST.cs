@@ -24,6 +24,8 @@ namespace ASTns
             Left = null;
         }
 
+        
+
     }
 
      public class ASTree
@@ -33,6 +35,24 @@ namespace ASTns
         public ASTree(Node root)
         {
             Root = root;
+        }
+
+        public void Simplify()
+        {
+            sameNumber(Root);
+        }
+
+        private void sameNumber(Node start)
+        {
+            if(start.Term is Operator)
+            {
+                if (((Operator)start.Term).Type == "+" && start.Left.Term.getVal() == start.Left.Term.getVal())
+                {
+                    start.Left = new Node(new Number("2"));
+                    ((Operator)start.Term).Type = "*";
+
+                }
+            }
         }
 
         public void PostOrder()

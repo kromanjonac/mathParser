@@ -19,7 +19,10 @@ namespace mathParser
 
             
             
-            GetASTreeFromRPN(ConvertToRPN(GetTokens("sin(max(23)/3*4)"))).PostOrder();
+            ASTree t = GetASTreeFromRPN(ConvertToRPN(GetTokens("x+x")));
+
+            t.Simplify();
+            t.PostOrder();
 
         }
 

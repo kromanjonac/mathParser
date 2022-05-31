@@ -5,6 +5,7 @@ namespace Tokens
     public interface Token
     {
         public string ToString();  
+        public string getVal();
     }
 
     public class Operator : Token 
@@ -22,6 +23,11 @@ namespace Tokens
         public override string ToString(){
             return Type;
         }  
+
+        public string getVal()
+        {
+            return Type;
+        }
     }
 
     public class Function : Token 
@@ -34,9 +40,14 @@ namespace Tokens
             FunctionName = functionName;
             Precedence = 1;
         }
-        public override string ToString(){
+        public override string ToString()
+        {
             return FunctionName;
         }  
+        public string getVal()
+        {
+            return FunctionName;
+        }
     }
 
     public class Number : Token 
@@ -51,6 +62,11 @@ namespace Tokens
         public override string ToString(){
             return Value.ToString();
         }  
+
+        public string getVal()
+        {
+            return Value;
+        }
     }
 }
     
