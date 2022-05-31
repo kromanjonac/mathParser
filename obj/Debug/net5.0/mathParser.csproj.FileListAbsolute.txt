@@ -1,0 +1,16 @@
+C:\Projekti\mathParser\bin\Debug\net5.0\mathParser.exe
+C:\Projekti\mathParser\bin\Debug\net5.0\mathParser.deps.json
+C:\Projekti\mathParser\bin\Debug\net5.0\mathParser.runtimeconfig.json
+C:\Projekti\mathParser\bin\Debug\net5.0\mathParser.runtimeconfig.dev.json
+C:\Projekti\mathParser\bin\Debug\net5.0\mathParser.dll
+C:\Projekti\mathParser\bin\Debug\net5.0\ref\mathParser.dll
+C:\Projekti\mathParser\bin\Debug\net5.0\mathParser.pdb
+C:\Projekti\mathParser\obj\Debug\net5.0\mathParser.csproj.AssemblyReference.cache
+C:\Projekti\mathParser\obj\Debug\net5.0\mathParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projekti\mathParser\obj\Debug\net5.0\mathParser.AssemblyInfoInputs.cache
+C:\Projekti\mathParser\obj\Debug\net5.0\mathParser.AssemblyInfo.cs
+C:\Projekti\mathParser\obj\Debug\net5.0\mathParser.csproj.CoreCompileInputs.cache
+C:\Projekti\mathParser\obj\Debug\net5.0\mathParser.dll
+C:\Projekti\mathParser\obj\Debug\net5.0\ref\mathParser.dll
+C:\Projekti\mathParser\obj\Debug\net5.0\mathParser.pdb
+C:\Projekti\mathParser\obj\Debug\net5.0\mathParser.genruntimeconfig.cache
